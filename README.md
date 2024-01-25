@@ -32,7 +32,7 @@ para determinar los lanzamientos (a) y su frecuencia para los resultados (b)
 obtenidos
 En este ejemplo se logra observar que a medida que se aumenta el número de
 repeticiones la frecuencia (b) se va estabilizando
-`
+```
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -51,7 +51,7 @@ plt.axhline( 0.5 )
 plt.xlabel( 'Executions' )
 plt.ylabel( 'Freq' )
 plt.show()
-`
+```
 
 En este ejemplo, aplicaremos la ley de los grandes números de la probabilidad
 para determinar los lanzamientos (a) y su frecuencia para los resultados (b) 
@@ -59,7 +59,7 @@ obtenidos
 En este ejemplo se logra observar que a medida que se aumenta el número de
 repeticiones la frecuencia (b) se va estabilizando en la probabilidad subyacente
 del evento, para este ejemplo la probabilidad sera p=1/6
-`
+```
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -78,7 +78,7 @@ plt.axhline( 1/6 )
 plt.xlabel( 'Executions' )
 plt.ylabel( 'Freq' )
 plt.show()
-`
+```
 ---
 ### Teoría de conjuntos y probabilidades
 Las relaciones que podemos encontrar son:
@@ -91,7 +91,7 @@ se escribe varias veces como ∼E, Ec, o E⎯⎯⎯⎯, y se lee como "no E" o "
 ---
 ### Teorema del límite central
 El otro gran teorema de la teoría de probabilidad es el Teorema del límite central. Este teorema establece que la suma o el promedio de casi cualquier conjunto de variables independientes generadas al azar se aproximan a la Distribución Normal. El Teorema del límite central explica por qué la Distribución Normal surge tan comúnmente y por qué es generalmente una aproximación excelente para la media de casi cualquier colección de datos. Este notable hallazgo se mantiene verdadero sin importar la forma que adopte la distribución de datos que tomemos.
-`
+```
 muestra_binomial = []
 muestra_exp = []
 muestra_possion = []
@@ -126,4 +126,4 @@ axes[0,1].set_title('Poisson')
 axes[1,0].set_title('Geométrica')
 axes[1,1].set_title('Exponencial')
 plt.show()
-`
+```
