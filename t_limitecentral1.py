@@ -5,6 +5,9 @@ de variables independientes generadas al azar se aproxima a la distribución
 normal. Se utiliza generalmente para obtener la media de casi cualquier
 coleccion de datos sin importar la distribución y variedad de datos que se
 disponga.
+Como nos muestra este ejemplo, al graficar la distribución de las medias de 
+las distribuciones Binomial, Poisson, Geométrica y Exponencial.
+Todas ellas responden a la famosa forma de campana de la Distribución Normal
 """
 import matplotlib.pyplot as plt
 import numpy as np
